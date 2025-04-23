@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Recipe App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        crossorigin="anonymous" />
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Nabizada Recipe App Web Store</h1>
+      <form>
+        <input type="text" placeholder="Search for Recipe..." class="searchBox" />
+        <button type="submit" class="searchBtn">Search</button>
+      </form>
+    </nav>
+  </header>
+
+  <main>
+    <div class="loader" style="display: none;"></div>
+    <section>
+      <div class="recipe-container">
+        <h2>Search your favourite recipes</h2>
+      </div>
+    </section>
+  </main>
+
+  <div class="recipe-details">
+    <button type="button" class="recipe-close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+    <div class="recipe-details-content"></div>
+  </div>
+
+  <section class="footer">
+    <div class="footer-row">
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul class="link">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">khalidpoya4@gmail.com</a></li>
+          <li><a href="#">+93702625230</a></li>
+          <li><a href="#">Feel free to Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Explore</h4>
+        <ul class="link">
+          <li><a href="#">Free Code</a></li>
+          <li><a href="#">Latest</a></li>
+          <li><a href="#">Themes</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Backend Skills</a></li>
+          <li><a href="#">New Uploads</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul class="link">
+          <li><a href="#">Customer Agreement</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">GDPR</a></li>
+          <li><a href="#">Security</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Media Kit</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <p>Subscribe for Weekly updates, delicious Foods, and exclusive offers.</p>
+        <form action="#">
+          <input type="text" placeholder="Your email" required />
+          <button type="submit">Subscribe</button>
+        </form>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-tiktok"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
